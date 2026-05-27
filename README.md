@@ -10,10 +10,11 @@
 
 ## GEBRUIK
 ### VM3 - receiver starten
-python3 receiver_upgrade.py --topic chatter1
+- python3 receiver_upgrade.py --topic chatter1
 
 ### VM1 - publisher starten
-python3 publisher_upgrade.py --topic chatter1 --start-hz 100 --delta-hz 100 --max-hz 1300
+- python3 publisher_upgrade.py --topic chatter1 --start-hz 100 --delta-hz 100 --max-hz 1300
 
 ### VM3 - grafiek genereren
-python3 createGraphs_upgrade.py --input latency_results.csv
+- source venv/bin/activate
+- python3 createGraphs_upgrade.py --input latency_results.csv
