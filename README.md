@@ -1,12 +1,12 @@
 # ROS2 Latency Measurement - Python
 
 ## COPY PASTE WAT ER HIERONDER STAAT OM ALLES IN 1 KEER TE DOEN
-git clone https://github.com/HDENBSXHZU/versie_1
-cd versie_1
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-source /opt/ros/jazzy/setup.bash
+- git clone https://github.com/HDENBSXHZU/versie_1
+- cd versie_1
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- source /opt/ros/jazzy/setup.bash
 
 ## Vereisten
 - ROS2 Jazzy
