@@ -8,13 +8,8 @@
 - pip install -r requirements.txt
 - source /opt/ros/jazzy/setup.bash
 
-## Vereisten
-- ROS2 Jazzy
-- Ubuntu 24.04
-- Python 3
-
 ## Gebruik
-- VM3 - receiver starten
+# VM3 - receiver starten
 python3 receiver_upgrade.py --topic chatter1
 
 - VM1 - publisher starten
