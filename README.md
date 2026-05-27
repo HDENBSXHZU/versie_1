@@ -9,7 +9,7 @@
 - source /opt/ros/jazzy/setup.bash
 
 ## Gebruik
-# VM3 - receiver starten
+### VM3 - receiver starten
 python3 receiver_upgrade.py --topic chatter1
 
 # VM1 - publisher starten
